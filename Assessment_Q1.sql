@@ -14,4 +14,4 @@ GROUP BY u.id, u.first_name
 HAVING
     savings_count > 0
     AND investment_count > 0
-ORDER BY total_deposits DESC
+ORDER BY total_deposits DESC;
